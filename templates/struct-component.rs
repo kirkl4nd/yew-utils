@@ -25,7 +25,7 @@ impl Component for StructComponent {
     fn view(&self, ctx: &Context<Self>) -> Html {
         html! {
             <div>
-                <h1>Struct Component</h1>
+                <h1>{"Struct Component Template"}</h1>
             </div>
         }
     }
